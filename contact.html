@@ -114,14 +114,14 @@
             <h5 class="">Talk to Hotel Reddington Customer Care </h5>
               
           <label for="fullName" class="d-block contact__label">Full Name</label>
-          <input type="text" id="fullName" class="contact__input" placeholder="Enter your full name">
+          <input type="text" id="fullName" class="contact__input" placeholder="Enter your full name" required>
 
           
           <label for="email" class="d-block contact__label">Email</label>
-          <input type="text" id="email" class="contact__input" placeholder="Enter your email">
+          <input type="text" id="email" class="contact__input" placeholder="Enter your email" required>
 
           <label for="message" class="d-block contact__label">Message</label>
-         <input type="text" id="message" class="contact__textarea contact__input" placeholder="Enter your message or inquiry">
+         <input type="text" id="message" class="contact__textarea contact__input" required placeholder="Enter your message or inquiry">
 
          <label for="newsletter__checkbox" class="newsletter__checkbox--label">
           <input type="checkbox" name="accept-law" id="newsletter__checkbox">
@@ -133,6 +133,7 @@
             </form>
           </div>
         </div>
+        <!-- map section -->
         <div class="map--box">
           <div class="map">
           
@@ -151,21 +152,22 @@
         <div class="newsletter__name--box">
           
           <label for="fullName" class="d-block newsletter__label">Full Name</label>
-          <input type="text" id="fullName" class="newsletter__input">
+          <input type="text" id="fullName" class="newsletter__input" required>
         </div>
 
         <div class="newsletter__email--box"> 
 
       <label for="email" class="d-block newsletter__label ">Email</label>
-      <input type="email" id="email" class="newsletter__input" >
+      <input type="email" id="email" class="newsletter__input" required>
         </div>
 
-        <label for="newsletter__checkbox" class="newsletter__checkbox--label">
+        <label for="newsletter__checkbox" class="newsletter__checkbox--label2">
           <input type="checkbox" name="accept-law" id="newsletter__checkbox">
           &nbsp;
           I have read and accepted data protection laws</label>
-
-    <button class="btn-dark" type="submit">Send</button>
+        <div class="utility--2">
+          <button class="btn-dark" type="submit">Send</button>
+        </div>
 
       </form>
       <div class="newsletter__bg--design">

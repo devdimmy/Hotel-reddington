@@ -148,11 +148,15 @@ label{
   outline: none;
 }
 
-.newsletter__checkbox--label{
+.newsletter__checkbox--label,
+.newsletter__checkbox--label2{
   font-size: 14px;
   margin-top: 20px;
   font-weight: 100;
   display: block;
+
+}
+.newsletter__checkbox--label2{
   position: absolute;
   bottom: -40px;
 }
@@ -183,12 +187,75 @@ footer, li, button {
 footer, .footer-copyright{
   font-size: 11px;
 }
-
+@media only screen and (max-width: 800px) {
+  /* constact section */
+  .section__contact{
+    padding:  40px 20px;
+  }
+  .contact__details{
+    /* text-align: center; */
+    margin: 20px 0;
+  }
+  .contact__details--para1{
+    width: 60%;
+  }
+  .contact__details--para2{
+    width: 80%;
+  }
+  .contact__details--para3{
+    width: 40%;
+  }
+  .contact__form-box{
+    padding: 30px 15px 0;
+    font-size: 12px;
+  }
+  .contact__input{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+  }
+  .contact__textarea{
+    padding: 10px 10px 65px;
+  }
+ 
+   /* newsletter section */
+   .section__newsletter{
+    padding: 80px 20px;
+    margin: 0;
+  }
+  .newsletter__form{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 ;
+  }
+  .newsletter__label{
+    margin-top: 10px;
+  }
+  .newsletter__checkbox--label2{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+  }
+  .newsletter__bg--design{
+    display: none;
+  }
+  .tertiary__heading{
+    font-size: 22px;
+  }
+  .utility--2{
+    margin-top: 10px;
+  }
+  .newsletter__bg--design{
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   /* contact section */
   .section__contact{
     background-image: linear-gradient(to bottom, #FFF9F7 80%,  #F7FFFA 80%);
-    padding:  50px 40px;
+    padding:  20px 10px;
   }
   .contact__box{
     flex-direction: column;
@@ -206,9 +273,17 @@ footer, .footer-copyright{
   .contact__details--para3{
     width: 100%;
   }
+  .contact__form-box{
+    padding: 15px;
+
+  }
+  .btn-clear{
+    margin: 30px auto 10px;
+    padding: 5px 20px;
+  }
   /* newsletter section */
   .section__newsletter{
-    padding: 50px 40px;
+    padding: 20px 10px;
     margin: 0;
   }
   .newsletter__form{
@@ -219,12 +294,21 @@ footer, .footer-copyright{
   .newsletter__label{
     margin-top: 10px;
   }
-  .newsletter__checkbox--label{
+  .newsletter__checkbox--label2{
     font-size: 14px;
     margin-top: 20px;
     font-weight: 100;
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
+  }
+  .newsletter__bg--design{
+    display: none;
+  }
+  .tertiary__heading{
+    font-size: 22px;
+  }
+  .utility--2{
+    margin-top: 10px;
   }
 }
