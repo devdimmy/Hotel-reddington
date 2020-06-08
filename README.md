@@ -1,8 +1,8 @@
-# Hotel-reddington
+# Hotel-Reddington
 
 **Team Superman Frontend Task**
 --
-** To Contribute**
+**To Contribute**
 * Fork the repository 
 
 * Put your files in their respective folders
