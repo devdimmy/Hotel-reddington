@@ -2,14 +2,14 @@
 
 :root{
   --mainGreen:#152D1E;
-  --mainWhite:rgba(255, 255, 255, 0.856);
+  --mainWhite:#ffff;
   --mainBrown:#E3B6A4;
   
 }
 
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bell MT', sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
