@@ -127,8 +127,9 @@
           <input type="checkbox" name="accept-law" id="newsletter__checkbox">
           &nbsp;
           I have read and accepted data protection laws</label>
-
-          <button class="btn-dark" type="submit">Submit</button>
+            <div class="utility">
+              <button class="btn-dark" type="submit">Submit</button>
+            </div>
             </form>
           </div>
         </div>
@@ -149,23 +150,23 @@
       <form action="/" class="newsletter__form d-flex justify-content-between">
         <div class="newsletter__name--box">
           
-          <label for="fullName" class="d-block ">Full Name</label>
+          <label for="fullName" class="d-block newsletter__label">Full Name</label>
           <input type="text" id="fullName" class="newsletter__input">
-
-          
-          <label for="newsletter__checkbox" class="newsletter__checkbox--label">
-            <input type="checkbox" name="accept-law" id="newsletter__checkbox">
-            &nbsp;
-            I have read and accepted data protection laws</label>
         </div>
 
         <div class="newsletter__email--box"> 
 
-      <label for="email" class="d-block ">Email</label>
+      <label for="email" class="d-block newsletter__label ">Email</label>
       <input type="email" id="email" class="newsletter__input" >
         </div>
 
+        <label for="newsletter__checkbox" class="newsletter__checkbox--label">
+          <input type="checkbox" name="accept-law" id="newsletter__checkbox">
+          &nbsp;
+          I have read and accepted data protection laws</label>
+
     <button class="btn-dark" type="submit">Send</button>
+
       </form>
       <div class="newsletter__bg--design">
         <img src="./img/Mask Group.png" alt="bg design" class="newsletter__bg--image">
