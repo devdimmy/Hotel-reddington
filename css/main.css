@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,700');
 
 :root{
   --mainGreen:#152D1E;
@@ -67,7 +67,9 @@ a:hover{
 .contact__details--para3{
   width: 25%;
 }
-
+.contact__details--paralight{
+  font-weight: 200;
+}
 /* map design */
 .map--box{
   margin-top: 140px;
