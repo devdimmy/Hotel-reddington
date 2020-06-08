@@ -15,6 +15,9 @@
 
 **Deadline is By 6pm** so let's Keep to time
 
+**Html, CSS, JavaScript and Bootstrap are the languages used for this project**
+
 Have a good day!
+
 
 
