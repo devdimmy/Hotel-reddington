@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root{
+  --mainGreen:#152D1E;
+  --mainWhite:rgba(255, 255, 255, 0.856);
+  --mainBrown:#E3B6A4;
+  
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+}
+
+nav, a{
+  background-color: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+a:hover{
+  color: var(--mainBrown);
+}
+
+footer{
+  background-color: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+footer, li, button {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+}
+footer, .footer-copyright{
+  font-size: 11px;
+}
