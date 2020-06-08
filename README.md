@@ -7,6 +7,8 @@
 
 * Put your files in their respective folders
 
+* Push code to the new branch
+
 * Also add a photo of your work while making a pull request
 
 * Open Pull request and make sure there's no conflict
