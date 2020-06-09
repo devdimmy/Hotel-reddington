@@ -4,9 +4,7 @@
   --mainGreen:#152D1E;
   --mainWhite:rgba(255, 255, 255, 0.856);
   --mainBrown:#E3B6A4;
-  
 }
-
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -41,10 +39,6 @@ footer, .footer-copyright{
    background:linear-gradient(0deg, rgba(144, 44, 17, 0.4), rgba(21, 45, 30, 0.5)), url(../img/background.png) no-repeat 0;
    text-align: center;
    justify-content: center;
-   
-   
-   
-
 }
 
 #first{
@@ -70,23 +64,7 @@ p{
   overflow: auto;
   
 }
-/**.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8{
-  float: left;
-  width: 50%;
-  
-   
-  
-}
-.boxes{
 
-  float: left;
-  width: 50%;
-  margin: auto;
-}
-img{
-  
-  
-}**/
 .wrapper{
  margin-top: 50px;
  margin-bottom: 100px;
@@ -103,15 +81,13 @@ img{
 .single-img{
   margin-bottom: 40px;
   margin-right: 40px;
-  /**height: 700px;**/
   border: 1px solid  rgba(21, 45, 30, 0.09);
-  
-  
 }
 
 .img-area > div:nth-child(even){
   margin-bottom: -50px
 }
+
 .info{
   display: flex;
   justify-content: center;
@@ -119,6 +95,7 @@ img{
   flex-direction: column;
   padding: 30px 0 ;
 }
+
 .icon{
   display: flex;  
   justify-content: space-between;
@@ -126,6 +103,7 @@ img{
   width: 50%;
   margin-top:20px;
 }
+
 .lab{
   display: flex;
   flex-direction: column;
@@ -155,6 +133,3 @@ img{
   justify-content: space-between;
   margin-top: 20px;
 }
-/* .img-area > div:nth-child(odd){
-  margin-top: -50px;
-} */
