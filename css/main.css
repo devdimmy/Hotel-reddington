@@ -1,24 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root{
   --mainGreen:#152D1E;
-  --mainWhite:#ffffff;
-  --mainGrey:  #BDBDBD;
+  --mainWhite:#ffff;
   --mainBrown:#E3B6A4;
   
 }
 
 
 body{
-  font-family: 'Bell Mt';
+  font-family: 'Bell MT', sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
 
-
 nav, a{
+  /* font-family: 'Graphik', sans-serif; */
   background-color: var(--mainGreen);
   color: var(--mainWhite);
+}
+
+a:hover{
+  color: var(--mainBrown);
+}
+
+.height-max{
+  min-height: 70vh;
+  background:url('../img/background.png');
+  background-color: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+.facility{
+  background-color: #E5E5E5;
 }
 
 a:hover{
