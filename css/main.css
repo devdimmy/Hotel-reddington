@@ -2,22 +2,21 @@
 
 :root{
   --mainGreen:#152D1E;
+  --mainWhite:#ffffff;
   --mainGrey:  #BDBDBD;
-  --mainWhite:#ffff;
   --mainBrown:#E3B6A4;
   
 }
 
 
 body{
-  font-family: 'Bell MT', sans-serif;
+  font-family: 'Bell Mt';
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
 
 
 nav, a{
-  /* font-family: 'Graphik', sans-serif; */
   background-color: var(--mainGreen);
   color: var(--mainWhite);
 }
@@ -175,25 +174,14 @@ label{
 
 
 /* footer design */
-.height-max{
-  min-height: 70vh;
-  background:url('../img/background.png');
-  background-color: var(--mainGreen);
-  color: var(--mainWhite);
-}
-
-.facility{
-  background-color: #E5E5E5;
-}
 
 footer{
   background-color: var(--mainGreen);
   color: var(--mainWhite);
-  font-family: 'Graphik' sans-serif;
 }
 
 footer, li, button {
-  font-family: 'Graphik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 14px;
 }
 footer, .footer-copyright{
