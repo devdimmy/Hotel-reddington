@@ -13,6 +13,8 @@
 
 * Open Pull request and make sure there's no conflict
 
+* Raise pull request to merge with master branch
+
 * Wait for your project to be merged.
 
 **Deadline is By 6pm** so let's Keep to time
