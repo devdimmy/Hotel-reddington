@@ -2,23 +2,15 @@
 
 :root{
   --mainGreen:#152D1E;
-<<<<<<< HEAD
-  --mainWhite:#ffffff;
   --mainGrey:  #BDBDBD;
-=======
   --mainWhite:#ffff;
->>>>>>> master
   --mainBrown:#E3B6A4;
   
 }
 
 
 body{
-<<<<<<< HEAD
-  font-family: 'Bell Mt';
-=======
   font-family: 'Bell MT', sans-serif;
->>>>>>> master
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
@@ -34,7 +26,6 @@ a:hover{
   color: var(--mainBrown);
 }
 
-<<<<<<< HEAD
 
 /* setting of fonts */
 p,
@@ -184,7 +175,6 @@ label{
 
 
 /* footer design */
-=======
 .height-max{
   min-height: 70vh;
   background:url('../img/background.png');
@@ -195,7 +185,6 @@ label{
 .facility{
   background-color: #E5E5E5;
 }
->>>>>>> master
 
 footer{
   background-color: var(--mainGreen);
